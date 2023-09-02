@@ -34,3 +34,36 @@ A Spring Boot application that allows users to track GPS data for their vehicles
    ```bash
    git clone https://github.com/your-username/vehicle-gps-tracking.git
    cd vehicle-gps-tracking
+
+Usage
+Access the application at http://localhost:8080.
+
+Use the provided RESTful API endpoints (see API Endpoints).
+
+API Endpoints
+- /vehicles: Manage vehicle information.
+- /owners: Manage owner information.
+- /gps-data: Manage GPS data.
+- /api/calculate-distance: Calculate the distance traveled between two dates (GET request with startDate and endDate query parameters).
+
+
+Configuration
+You can configure the application by editing 
+
+   ```
+   src/main/resources/application.properties.
+   ```
+
+Example application.properties:
+```
+# Database Configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/vehicle_gps_db
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# Other Configuration
+# ...
+```
+Contributing
+Contributions are welcome! Please follow the Contribution Guidelines.
