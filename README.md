@@ -32,8 +32,8 @@ A Spring Boot application that allows users to track GPS data for their vehicles
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/vehicle-gps-tracking.git
-   cd vehicle-gps-tracking
+   git clone https://github.com/Murli0399/Nunam-Assignment.git
+
 
 Usage
 Access the application at http://localhost:8080.
