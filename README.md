@@ -6,7 +6,7 @@ A Spring Boot application that allows users to track GPS data for their vehicles
 ## Table of Contents
 
 - [Features](#features)
-- [Tech Stack](#Tech Stack)
+- [Tech Stack](#Tech-Stack)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
