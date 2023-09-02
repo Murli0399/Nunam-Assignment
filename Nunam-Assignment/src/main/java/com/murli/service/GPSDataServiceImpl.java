@@ -1,5 +1,6 @@
 package com.murli.service;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -25,6 +26,10 @@ public class GPSDataServiceImpl implements GPSDataService {
 		return list;
 	}
 
+	public List<GPSData> getGPSDataDateRange(List<Integer> vehicleIds, LocalDate startDate, LocalDate endDate) {
+        return gr.findByVehicleIdInAndTimestampBetween(vehicleIds, startDate.atStartOfDay(), endDate.plusDays(1).atStartOfDay());
+    }
+	
 	@Override
 	public GPSData getGPSData(Integer id) throws GPSDataException {
 		Optional<GPSData> v = gr.findById(id);

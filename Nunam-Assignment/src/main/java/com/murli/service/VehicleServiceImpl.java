@@ -25,6 +25,14 @@ public class VehicleServiceImpl implements VehicleService {
 		return list;
 	}
 
+	public List<Vehicle> getAllVehicleByOwner(Integer id) throws VehicalException {
+		List<Vehicle> list = vr.findByOwnerId(id);
+		if (list.isEmpty()) {
+			throw new VehicalException("Vehicle Not Present");
+		}
+		return list;
+	}
+
 	@Override
 	public Vehicle getVehicle(Integer id) throws VehicalException {
 		Optional<Vehicle> v = vr.findById(id);
