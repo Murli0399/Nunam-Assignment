@@ -1,5 +1,4 @@
 # Nunam-Assignment
-# Vehicle GPS Tracking System
 
 A Spring Boot application that allows users to track GPS data for their vehicles and calculate the distance traveled between two dates based on the stored GPS coordinates.
 
