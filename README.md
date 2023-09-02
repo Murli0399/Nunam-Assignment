@@ -47,8 +47,8 @@ Use the provided RESTful API endpoints (see API Endpoints).
 ## API Endpoints
 - /vehicles: Manage vehicle information.
 - /owners: Manage owner information.
-- /gps-data: Manage GPS data.
-- /api/calculate-distance: Calculate the distance traveled between two dates (GET request with startDate and endDate query parameters).
+- /gps: Manage GPS data.
+- /distance: Calculate the distance traveled between two dates (GET request with startDate and endDate query parameters).
 
 
 ## Configuration
