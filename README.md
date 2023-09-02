@@ -6,7 +6,7 @@ A Spring Boot application that allows users to track GPS data for their vehicles
 ## Table of Contents
 
 - [Features](#features)
-- [Prerequisites](#prerequisites)
+- [Tech Stack](#Tech Stack)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
@@ -21,11 +21,17 @@ A Spring Boot application that allows users to track GPS data for their vehicles
 - Support for multiple users owning multiple vehicles.
 - RESTful API endpoints for managing vehicles, owners, and GPS data.
 
-## Prerequisites
 
-- Java 11 or higher
-- Maven or Gradle
-- Database (e.g., H2, MySQL, PostgreSQL)
+## Tech Stack
+
+- **Java**: The core programming language used for developing the backend of the application.
+- **Spring Boot**: A powerful and flexible framework for building Java-based applications. Used for creating RESTful APIs, managing database connections, and handling security.
+- **Spring Data JPA**: Part of the Spring Data project, it simplifies data access using the Java Persistence API (JPA).
+- **Database**: MySQL - Used for storing vehicle, owner, and GPS data.
+- **Maven**: Build automation tools for managing project dependencies.
+
+Feel free to explore the source code and project structure for more details on how these technologies are integrated into the project.
+
 
 ## Getting Started
 
