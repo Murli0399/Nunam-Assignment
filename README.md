@@ -60,14 +60,14 @@ You can configure the application by editing
 
 Example application.properties:
 ```
-# Database Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/vehicle_gps_db
+#changing the server port
+server.port=8088
+
+#db specific properties
+spring.datasource.url=jdbc:mysql://localhost:3306/test
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.username=root
 spring.datasource.password=root
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
-# Other Configuration
-# ...
 ```
 ## Contributing
 Contributions are welcome! Please follow the Contribution Guidelines.
