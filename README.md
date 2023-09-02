@@ -35,19 +35,19 @@ A Spring Boot application that allows users to track GPS data for their vehicles
    git clone https://github.com/Murli0399/Nunam-Assignment.git
 
 
-Usage
+## Usage
 Access the application at http://localhost:8080.
 
 Use the provided RESTful API endpoints (see API Endpoints).
 
-API Endpoints
+## API Endpoints
 - /vehicles: Manage vehicle information.
 - /owners: Manage owner information.
 - /gps-data: Manage GPS data.
 - /api/calculate-distance: Calculate the distance traveled between two dates (GET request with startDate and endDate query parameters).
 
 
-Configuration
+## Configuration
 You can configure the application by editing 
 
    ```
@@ -65,5 +65,5 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 # Other Configuration
 # ...
 ```
-Contributing
+## Contributing
 Contributions are welcome! Please follow the Contribution Guidelines.
