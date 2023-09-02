@@ -18,7 +18,7 @@ import com.murli.service.GPSDataServiceImpl;
 import com.murli.service.VehicleServiceImpl;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/distance")
 public class DistanceController {
 
 	@Autowired
@@ -27,7 +27,7 @@ public class DistanceController {
 	@Autowired
 	VehicleServiceImpl vs;
 
-	@GetMapping("/calculate-distance")
+	@GetMapping
 	public double calculateDistance(Integer id,
 			@RequestParam("startDate") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate startDate,
 			@RequestParam("endDate") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate endDate)
