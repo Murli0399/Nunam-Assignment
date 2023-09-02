@@ -34,7 +34,6 @@ A Spring Boot application that allows users to track GPS data for their vehicles
    ```bash
    git clone https://github.com/Murli0399/Nunam-Assignment.git
 
-
 ## Usage
 Access the application at http://localhost:8080.
 
